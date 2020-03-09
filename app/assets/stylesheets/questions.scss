@@ -1,0 +1,71 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Defining a variable
+
+$gray: #F4F4F4;
+$darkgray: #696969;
+
+h1 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+p {
+  font-style: italic;
+}
+
+body {
+  background: $gray; // Using this variable
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+  border-left: solid;
+  border-color: $darkgray;
+  border-width: 5px;
+}
+
+#coach-answer {
+  background-color: #FFFEE1;
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+input[type=text] {
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  border-shadow: 2px;
+}
+
+input[type=submit] {
+  background-color:#44c767;
+  border-radius:15px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:4px 31px;
+  text-decoration:none;
+  text-shadow:0px 0px 3px #2f6627;
+    &:hover {
+    background-color:#5cbf2a;
+  }
+}
+
+
